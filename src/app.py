@@ -2,7 +2,7 @@ import altair as alt
 from vega_datasets import data
 from dash import Dash, dcc, html, Output, Input
 
-server = app.server
+
 
 iris = data.iris()
 
@@ -13,6 +13,8 @@ app = Dash(
 
 
 app = Dash(__name__)
+server = app.server
+
 app.layout = html.Div(
     [
         html.Div("Iris dash", style={"fontSize": 30}),
