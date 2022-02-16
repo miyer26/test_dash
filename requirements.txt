@@ -2,3 +2,5 @@ pandas
 gunicorn
 altair
 dash
+dash_bootstrap_components
+vega_datasets
